@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from "react-icons/bs";
 import newsletter from "../images/newsletter.png";
 const Footer = () => {
   return (
@@ -11,7 +10,7 @@ const Footer = () => {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <img src={newsletter} alt="newsletter" />
-                <h2 className="mb-0 text-white">Sign Up for Newsletter</h2>
+                <h2 className="mb-0 text-white">Sign Up for new updates</h2>
               </div>
             </div>
             <div className="col-7">
@@ -37,50 +36,43 @@ const Footer = () => {
             <div className="col-4">
               <h4 className="text-white mb-4">Contact Us</h4>
               <div>
-                <address className="text-white fs-6">
-                  Hno : Daiict college, Reliance Cross Rd, <br />{" "}
-                  Gandhinagar,Gujarat <br />
-                  PinCode: 382007
+              <address className="text-white fs-6">
+                Patel Traders No. 26, Mahalaxmi Market 1 <br />{" "}
+                Maninagar, Ahmedabad, Gujarat, India<br />
+                  PinCode: 380008
                 </address>
+                <a href="https://www.google.com/maps/place/22%C2%B059'52.7%22N+72%C2%B036'28.9%22E/@22.9979725,72.6054439,802m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d22.9979725!4d72.6080188?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" target="_blank">
+                click to get directions</a>
                 <a
                   href="tel:+91 8264954234"
                   className="mt-3 d-block mb-1 text-white"
                 >
-                  +91 8264954234
+                  +91 8048968884
                 </a>
                 <a
-                  href="mailto:devjariwala8444@gmail.com"
+                  href="mailto:pateltraders@gmail.com"
                   className="mt-2 d-block mb-0 text-white"
                 >
-                  devjariwala8444@gmail.com
+                  pateltraders@gmail.com
                 </a>
                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
-                  <a className="text-white" href="#">
-                    <BsLinkedin className="fs-4" />
-                  </a>
-                  <a className="text-white" href="#">
-                    <BsInstagram className="fs-4" />
-                  </a>
-                  <a className="text-white" href="#">
-                    <BsGithub className="fs-4" />
-                  </a>
-                  <a className="text-white" href="#">
-                    <BsYoutube className="fs-4" />
+                  <a className="text-white" href="https://www.chipresetters.com/">
+                    I-Mart
                   </a>
                 </div>
               </div>
             </div>
             <div className="col-3">
-              <h4 className="text-white mb-4">Information</h4>
+              <h4 className="text-white mb-4">Company Profile</h4>
               <div className="footer-link d-flex flex-column">
                 <Link to="/privacy-policy" className="text-white py-2 mb-1">
-                  Privacy Policy
+                  Home
                 </Link>
                 <Link to="/refund-policy" className="text-white py-2 mb-1">
-                  Refund Policy
+                  Company Brief
                 </Link>
                 <Link to="/shipping-policy" className="text-white py-2 mb-1">
-                  Shipping Policy
+                  Our Products
                 </Link>
                 <Link to="/term-conditions" className="text-white py-2 mb-1">
                   Terms & Conditions
@@ -99,10 +91,10 @@ const Footer = () => {
             <div className="col-2">
               <h4 className="text-white mb-4">Quick Links</h4>
               <div className="footer-link d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Laptops</Link>
-                <Link className="text-white py-2 mb-1">Headphones</Link>
-                <Link className="text-white py-2 mb-1">Tablets</Link>
-                <Link className="text-white py-2 mb-1">Watch</Link>
+                <Link className="text-white py-2 mb-1">Hp series Chip</Link>
+                <Link className="text-white py-2 mb-1">Toner Chips</Link>
+                <Link className="text-white py-2 mb-1">Ricoh Chip & Chip Programmer</Link>
+                <Link className="text-white py-2 mb-1">Hp inkjet Chip</Link>
               </div>
             </div>
           </div>
@@ -113,7 +105,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-12">
               <p className="text-center mb-0 text-white">
-                &copy; {new Date().getFullYear()}; Powered by Cart Corner
+                &copy; {new Date().getFullYear()}; Powered by Patel Traders
               </p>
             </div>
           </div>

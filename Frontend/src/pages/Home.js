@@ -403,21 +403,21 @@ const Home = () => {
                       </div>
                       <div className="product-image">
                         <img
-                          src={item?.images[0].url}
-                          // className="img-fluid d"
+                          src={item?.images?.[0]?.url || "https://via.placeholder.com/250"} // Fallback to placeholder image
                           alt="product image"
                           height={"250px"}
                           width={"100%"}
                           onClick={() => navigate("/product/" + item?._id)}
                         />
+
                         <img
-                          src={item?.images[0].url}
-                          // className="img-fluid d"
+                          src={item?.images?.[0]?.url || "https://via.placeholder.com/250"} // Fallback to placeholder image
                           alt="product image"
                           height={"250px"}
                           width={"100%"}
                           onClick={() => navigate("/product/" + item?._id)}
                         />
+
                       </div>
                       <div className="product-details">
                         <h6 className="brand">{item?.brand}</h6>

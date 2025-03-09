@@ -19,9 +19,8 @@ const Cart = () => {
 
   const config2 = {
     headers: {
-      Authorization: `Bearer ${
-        getTokenFromLocalStorage !== null ? getTokenFromLocalStorage.token : ""
-      }`,
+      Authorization: `Bearer ${getTokenFromLocalStorage !== null ? getTokenFromLocalStorage.token : ""
+        }`,
       Accept: "application/json",
     },
   };
@@ -90,10 +89,14 @@ const Cart = () => {
                     <div className="cart-col-1 gap-15 d-flex align-items-center">
                       <div className="w-25">
                         <img
-                          src={item?.productId.images[0].url}
+                          src={
+                            item?.productId?.images?.[0]?.url ||
+                            "https://via.placeholder.com/250" // Fallback image URL
+                          }
                           className="img-fluid"
                           alt="product image"
                         />
+
                       </div>
                       <div className="w-75">
                         <p>{item?.productId.title}</p>

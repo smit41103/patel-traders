@@ -66,13 +66,13 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <p className="text-white mb-0">Free Shipping Over Rs.100</p>
+              <p className="text-white mb-0">Maninagar, Ahmedabad, Gujarat</p>
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
                 Hotline:
                 <a className="text-white" href="tel:+91 8264954234">
-                  +91 8264954234
+                  +91 8048968884
                 </a>
               </p>
             </div>
@@ -85,7 +85,7 @@ const Header = () => {
             <div className="col-2">
               <h2>
                 <Link className="text-white" to="/ ">
-                  Cart Corner
+                  Patel Traders
                 </Link>
               </h2>
             </div>
