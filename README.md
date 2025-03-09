@@ -1,3 +1,9 @@
+ENV HERE:
+JWT_SECRET=this_is_the_secret
+MONGODB_URL=mongodb+srv://smitpatel41103:pateltrader1234@cluster0.4mpz2.mongodb.net/
+MAIL_ID=keeley.lang@ethereal.email
+MP=	WsVWuXbzzaPRHXQbs2
+
 # Full_MERN_Stack_Ecommerce_Project
 1. MERN Stack
 For the ecommerce website, we have adopted the MERN stack, which comprises MongoDB, Express.js, React.js, and Node.js. This technology stack allows us to build a dynamic and user-friendly web application that leverages the power of both front-end and back-end technologies. Let's dive into the details of each component:
