@@ -27,9 +27,8 @@ const Header = () => {
 
   const config2 = {
     headers: {
-      Authorization: `Bearer ${
-        getTokenFromLocalStorage !== null ? getTokenFromLocalStorage.token : ""
-      }`,
+      Authorization: `Bearer ${getTokenFromLocalStorage !== null ? getTokenFromLocalStorage.token : ""
+        }`,
       Accept: "application/json",
     },
   };
@@ -84,6 +83,8 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
+                <img>
+                </img>
                 <Link className="text-white" to="/ ">
                   Patel Traders
                 </Link>
@@ -215,13 +216,26 @@ const Header = () => {
                     <NavLink to="/contact">Contact</NavLink>
                     {authState?.user !== null ? (
                       <button
-                        className="border border-0 bg-trasparent text-white text-uppercase"
+                        className="border border-2 border-white text-black text-uppercase fw-bold px-4 py-2 rounded"
                         type="button"
-                        style={{ backgroundColor: "#232f3e" }}
+                        style={{
+                          backgroundColor: "white",
+                          color: "black",
+                          transition: "all 0.3s ease-in-out",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.target.style.backgroundColor = "black";
+                          e.target.style.color = "white";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.target.style.backgroundColor = "white";
+                          e.target.style.color = "black";
+                        }}
                         onClick={handleLogout}
                       >
                         LogOut
                       </button>
+
                     ) : (
                       ""
                     )}

@@ -39,7 +39,6 @@ const Home = () => {
   const getProducts = () => {
     dispatch(getAllProducts());
   };
-
   const addToWish = (id) => {
     //alert(id);
     dispatch(addToWishlist(id));
@@ -50,15 +49,15 @@ const Home = () => {
         <div className="row">
           <div className="col-6">
             <div className="main-banner position-relative ">
-              <img
-                src="images/main-banner-1.jpg"
+              {/* <img
+                src=""
                 className="img-fluid rounded-3"
                 alt="main banner"
-              />
+              /> */}
               <div className="main-banner-content position-absolute">
-                <h4>SUPERCHARGED FOR PROS.</h4>
-                <h5>iPad S13+ Pro.</h5>
-                <p>From Rs. 81,900.00 </p>
+                <h4>Best Price at Patel Traders</h4>
+                <h5>Laser Toner Cartridge Chip</h5>
+                <p>From Rs. 40/- only </p>
                 <Link className="button">BUY NOW</Link>
               </div>
             </div>
@@ -67,57 +66,57 @@ const Home = () => {
             <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
               <div className="small-banner position-relative">
                 <img
-                  src="images/catbanner-01.jpg"
+                  src="https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/098ab9b72863d386c0fd4bbe510a10e9/detailed"
                   className="img-fluid rounded-3"
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
                   <h4>Best Sake</h4>
-                  <h5>MacBook Pro.</h5>
+                  <h5>HP SERIES CHIP.</h5>
                   <p>
-                    From Rs. 1,29,900.00 <br />
+                    From Rs. 30/- per piece <br />
                   </p>
                 </div>
               </div>
               <div className="small-banner position-relative">
                 <img
-                  src="images/catbanner-02.jpg"
+                  src="https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/592cf63a53aa95ac141ce744cb48f724/detailed"
                   className="img-fluid rounded-3"
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
                   <h4>NEW ARRIVAL</h4>
-                  <h5>But IPad Air</h5>
+                  <h5>Xerox Printer Chip</h5>
                   <p>
-                    From Rs. 21,625.00 <br />
+                    From Rs. 200/- per piece <br />
                   </p>
                 </div>
               </div>
               <div className="small-banner position-relative ">
                 <img
-                  src="images/catbanner-03.jpg"
+                  src="https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/86a577c71f8783a8b5d51727a80fe08c/detailed"
                   className="img-fluid rounded-3"
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
                   <h4>NEW ARRIVAL</h4>
-                  <h5>But IPad Air</h5>
+                  <h5>HP inkjet chip</h5>
                   <p>
-                    From Rs. 41,900.00 <br />
+                    From Rs. 230/- per piece <br />
                   </p>
                 </div>
               </div>
               <div className="small-banner position-relative ">
                 <img
-                  src="images/catbanner-04.jpg"
+                  src="https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/e4dee8216ddc35541dd21bf30f697419/detailed"
                   className="img-fluid rounded-3"
                   alt="main banner"
                 />
                 <div className="small-banner-content position-absolute">
                   <h4>NEW ARRIVAL</h4>
-                  <h5>But Headphone</h5>
+                  <h5>Toshiba 2309a</h5>
                   <p>
-                    From Rs. 41,000.00 <br />
+                    From Rs. 222/- per piece<br />
                   </p>
                 </div>
               </div>
@@ -288,7 +287,7 @@ const Home = () => {
         </div>
       </Container>
 
-      <Container class1="famous-wrapper py-5 home-wrapper-2">
+      {/* <Container class1="famous-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-3">
             <div className="famous-card position-relative">
@@ -347,7 +346,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </Container> */}
 
       <Container class1="special-wrapper py-5 home-wrapper-2">
         <div className="row">

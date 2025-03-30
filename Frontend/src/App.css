@@ -60,7 +60,7 @@ a {
 }
 /* Header Part */
 
-.header-top-strip {
+/* .header-top-strip {
   border-bottom: 1px solid var(--color-3b4149);
   background-color: var(--color-131921);
 }
@@ -69,7 +69,22 @@ a {
 }
 .header-bottom {
   background-color: var(--color-232f3e);
+} */
+.header-top-strip {
+  border-bottom: 1px solid #333333; /* Dark Gray */
+  background-color: #121212; /* Almost Black */
 }
+
+.header-upper {
+  background-color: #121212; /* Almost Black */
+}
+
+.header-bottom {
+  background-color: #1a1a1a; /* Deep Black Shade */
+}
+
+
+
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
 }
