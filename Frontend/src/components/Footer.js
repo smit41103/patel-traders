@@ -65,7 +65,7 @@ const Footer = () => {
             <div className="col-3">
               <h4 className="text-white mb-4">Company Profile</h4>
               <div className="footer-link d-flex flex-column">
-                <Link to="/privacy-policy" className="text-white py-2 mb-1">
+                <Link to="/" className="text-white py-2 mb-1">
                   Home
                 </Link>
                 <Link to="/refund-policy" className="text-white py-2 mb-1">
@@ -86,15 +86,15 @@ const Footer = () => {
                 <Link className="text-white py-2 mb-1">About Us</Link>
                 <Link className="text-white py-2 mb-1">Faq</Link>
                 <Link className="text-white py-2 mb-1">Contact</Link>
-              </div>
+              </div> 
             </div>
             <div className="col-2">
               <h4 className="text-white mb-4">Quick Links</h4>
               <div className="footer-link d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Hp series Chip</Link>
-                <Link className="text-white py-2 mb-1">Toner Chips</Link>
-                <Link className="text-white py-2 mb-1">Ricoh Chip & Chip Programmer</Link>
-                <Link className="text-white py-2 mb-1">Hp inkjet Chip</Link>
+                <Link to="/product" className="text-white py-2 mb-1">Hp series Chip</Link>
+                <Link to="/product" className="text-white py-2 mb-1">Toner Chips</Link>
+                <Link to="/product" className="text-white py-2 mb-1">Ricoh Chip & Chip Programmer</Link>
+                <Link to="/product" className="text-white py-2 mb-1">Hp inkjet Chip</Link>
               </div>
             </div>
           </div>

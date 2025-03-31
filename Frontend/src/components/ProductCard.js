@@ -75,6 +75,7 @@ const ProductCard = (props) => {
               <div className="product-image">
                 <img
                   src={item?.images[0]?.url}
+                  // src="https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/592cf63a53aa95ac141ce744cb48f724/detailed"
                   // className="img-fluid d"
                   alt="product image"
                   height={"250px"}
@@ -83,6 +84,7 @@ const ProductCard = (props) => {
                 />
                 <img
                   src={item?.images[0]?.url}
+                  // src="https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/098ab9b72863d386c0fd4bbe510a10e9/detailed"
                   // className="img-fluid d"
                   alt="product image"
                   height={"250px"}

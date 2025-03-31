@@ -58,7 +58,7 @@ const Home = () => {
                 <h4>Best Price at Patel Traders</h4>
                 <h5>Laser Toner Cartridge Chip</h5>
                 <p>From Rs. 40/- only </p>
-                <Link className="button">BUY NOW</Link>
+                  <Link to="/product" className="button">BUY NOW</Link>
               </div>
             </div>
           </div>
@@ -348,7 +348,7 @@ const Home = () => {
         </div>
       </Container> */}
 
-      <Container class1="special-wrapper py-5 home-wrapper-2">
+      {/* <Container class1="special-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading">Special Products</h3>
@@ -375,7 +375,7 @@ const Home = () => {
               }
             })}
         </div>
-      </Container>
+      </Container> */}
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">

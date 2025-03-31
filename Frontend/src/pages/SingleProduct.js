@@ -70,8 +70,8 @@ const SingleProduct = () => {
     height: 600,
     zoomWidth: 600,
     img:
-      productState?.images?.[0]?.url || // Safely access the first image URL
-      "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg", // Fallback image
+      productState?.images[0]?.url || // Safely access the first image URL
+      "https://res-console.cloudinary.com/dgd79fxd7/media_explorer_thumbnails/e23f64ef68cdcd7fa35bb2b2a2f9834c/detailed", // Fallback image
   };
   
 

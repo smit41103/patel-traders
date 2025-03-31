@@ -31,7 +31,7 @@ const MainLayout = () => {
     <Layout /* onContextMenu={(e) => e.preventDefault()} */>
       <Sider trigger={null} collapsible collapsed={collapsed}>
         <div className="logo">
-          <h2 className="text-white fs-5 text-center py-3 mb-0">
+          <h2 className="text-black fs-5 text-center py-3 mb-0">
             <span className="sm-logo">PT</span>
             <span className="lg-logo">Patel Traders</span>
           </h2>
@@ -189,7 +189,7 @@ const MainLayout = () => {
                 <img
                   width={32}
                   height={32}
-                  src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg"
+                  src="https://5.imimg.com/data5/NB/II/GL/SELLER-33695/refill-logo-90x90.jpg"
                   alt=""
                 />
               </div>
@@ -200,7 +200,7 @@ const MainLayout = () => {
                 aria-expanded="false"
               >
                 <h5 className="mb-0">Patel Traders</h5>
-                <p className="mb-0">pateltraders@airpack.com</p>
+                <p className="mb-0">pateltraders@gmail.com</p>
               </div>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
